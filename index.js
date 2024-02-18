@@ -24,9 +24,9 @@ let Perro = {
     'nombre':'',
     'raza':'',
     'color':'',
-    'edad':'' ,
+    'edad':'',
     ladrar() {console.log('guau')},
-    popo() {Math.random() * 3}
+    popo() {return (Math.random() * 3)}
 }
 //----Lectura de propiedades: 5,6,7,8.
 let marcaPortatil = Portatil.marca;
@@ -37,7 +37,7 @@ let RGB = [Led.rojo,Led.verde,Led.azul];
 //----Modificación de propiedades: 9,10,11,12.
 
 Portatil.modelo = 'P345';
-Concierto.cartelera = "Guns N' Roses";
+Concierto.cartelera.push("Guns N' Roses");
 Concierto.fecha = new Date('18 de Febrero');
 Impresora.imprimiendo = {
  'nombrArchivo':'',
