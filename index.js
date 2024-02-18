@@ -75,3 +75,19 @@ let Pais = {
     'continente':'',
     'gentilicio':''
 }
+
+//----Lectura de propiedades
+
+let codError = O_Error.codigo;
+let integrantes = Grupo.integrantes;
+let nivelesTinta = Impresora.tinta;
+let pixeles = Pantalla.pixeles;
+let especificaciones = Movil["especificaciones"];
+
+//----Modificación de propiedades
+
+Grupo.numIntegrantes = 5;
+Pantalla.dimensiones = '1920x1080';
+Led.encendido = true ? true : false;
+Movil.temperatura = '20º'
+
